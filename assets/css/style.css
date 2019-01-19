@@ -1,11 +1,23 @@
+.header {
+
+    }
+
 body {
     color: #777777;
     background-color: #ffffff;
+    margin: 0% 15% 0% 15%;
+    background-image: url(../images/prism.png)
+
 }
 
 h1 {
-    background-color: #ffffff;
-    color: #4aaaa5;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 25%;
+    height: 50px;
+
+
+
 }
 
 h2 {
