@@ -1,3 +1,25 @@
 body {
-    background-color: black;
+    color: #777777;
+    background-color: #ffffff;
+}
+
+h1 {
+    background-color: #ffffff;
+    color: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+div {
+    border:#dddddd; 
+    max-width: width 960px;
+}
+
+.links {
+    float: right;
+    margin: 10px;
+    text-decoration: none;
+    color: #777777; 
 }
