@@ -1,5 +1,9 @@
 .header {
-
+    width: 100%; 
+    background-color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px #cccccc;
     }
 
 body {
@@ -13,11 +17,8 @@ body {
 h1 {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 25%;
     height: 50px;
-
-
-
+    width: 17%;
 }
 
 h2 {
