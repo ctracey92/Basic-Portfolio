@@ -31,6 +31,9 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     height: 100%;
+    vertical-align: middle;
+    margin: 0;
+    top: 0;
     width: 17%;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -54,10 +57,10 @@ h2 {
     left: 0;
     width: 100%; 
     max-width: 960px;
+    height: 119px;;
     background-color: #ffffff;
     text-align: center;
     overflow: hidden;
-   
     border-bottom: 3px solid #cccccc;
 }
 
@@ -98,4 +101,11 @@ input[type=submit] {padding:5px 15px; background:#4aaaa5; border:0 none;
     margin: 10px 0px 10px 0px;
 }
 
+.my-name{
+   align-items: center;
+   justify-content: center;
+}
 
+.my-name h1{
+    vertical-align: middle;
+}
