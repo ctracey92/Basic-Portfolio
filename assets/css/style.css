@@ -4,7 +4,7 @@ div {
     background-color: #ffffff;
     max-width: 960px;
     padding: 25px;
-    margin: 25px 0px 25px 0px;
+    /* margin: 25px 0px 25px 0px; */
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -12,7 +12,7 @@ div {
 body {
     color: #777777;
     background-color: #ffffff;
-    margin: 0% 15% 0% 15%;
+    /* margin: 0% 15% 0% 15%; */
     background-image: url(../images/prism.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -51,17 +51,18 @@ h2 {
 
 .header { 
     border: 0px; 
-    margin: 0px 0px 0px 0px;
-    padding: 0;
-    right: 0;
-    left: 0;
+    margin: 0px 0px 25px 0px;
+     padding: 0px 281px 0px 281px;
+     right: 0;
+   /* /*left: 0; */
     width: 100%; 
     max-width: 960px;
-    height: 119px;;
+    height: 119px;; */
     background-color: #ffffff;
     text-align: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-bottom: 3px solid #cccccc;
+
 }
 
 .links {
