@@ -115,7 +115,7 @@ input[type=submit] {padding:5px 15px; background:#4aaaa5; border:0 none;
 }
 
 .my-name h1{
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .grid {
