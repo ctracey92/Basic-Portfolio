@@ -53,9 +53,9 @@ h2 {
 .header { 
     border: 0px; 
     margin: 0px 0px 25px 0px;
-     padding: 0px 281px 0px 281px;
+     padding: 0px 279px 0px 279px;
      right: 0;
-    /*left: 0; */
+    left: 0;
     width: 100%; 
     max-width: 960px;
     height: 119px;
@@ -63,8 +63,11 @@ h2 {
     text-align: center;
     /* overflow: hidden; */
     border-bottom: 3px solid #cccccc;
+    top: 0%;
 
 }
+
+
 
 .links {
     float: right;
@@ -73,6 +76,7 @@ h2 {
     text-decoration: none;
     color: #777777; 
     max-width: 960px;
+    padding: 0%;
 }
 
 img { max-width: 200px;
@@ -117,3 +121,15 @@ input[type=submit] {padding:5px 15px; background:#4aaaa5; border:0 none;
     margin: 0 0 0 0;
     border: 0;
 }
+
+input {
+    width: 910px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+textarea {
+    width: 910px;
+    height: 200px;
+}
+
