@@ -6,6 +6,7 @@ div {
     margin-left: auto;
     margin-right: auto;
     margin: 25px 0px 25px 281px;
+    margin-bottom: 100px;
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -55,8 +56,8 @@ h2 {
 
 .header { 
     border: 0px; 
-    margin: 0px 0px 25px 0px;
-     padding: 0px 279px 0px 279px;
+    margin: 0px 0px 0px 0px;
+     padding: 0px 279px 0px 280px;
      right: 0;
     left: 0;
     width: 100%; 
@@ -67,7 +68,20 @@ h2 {
     top: 0%;
 
 }
+.header2 { 
+    border: 0px; 
+    margin: 0px 0px 0px 0px;
+    padding: 0px 296px 0px 280px;
+    right: 0;
+    left: 0;
+    width: 100%; 
+    max-width: 960px;
+    background-color: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid #cccccc;
+    top: 0%;
 
+}
 
 
 .links {
@@ -80,8 +94,8 @@ h2 {
     padding: 0%;
 }
 
-img { max-width: 200px;
-        max-height: 200px;
+img { max-width: 300px;
+        max-height: 300px;
         float: left;
         padding: 5px;
         padding-left: 25px;
@@ -147,12 +161,15 @@ textarea {
 .absolute {
 position: absolute;
 background-color: #4aaaa5;
-color: #dddddd;
+color: #ffffff;
+font-size: 30px;
+text-align: center;
 border: 0;
-width: 200px;
-height: 50px;
+width: 300px;
+height: auto;
+padding-top: 15px;
+padding-bottom: 15px;
 margin: 0;
-padding: 0%;
 }
 
 .portfolio {
@@ -189,7 +206,7 @@ padding: 0%;
 }
 
 .superbox {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0;
     border: 0;
     
@@ -198,11 +215,61 @@ padding: 0%;
 span {
     padding-right: 25px;
     padding-left: 25px;
-
     margin-right: 425px;
+    padding-bottom: 50px;
 }
 
 label {
     padding-left: 25px;
 
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 25px;
+    border: 0px;
+    border-top: 8px solid #4aaaa5;
+    margin: 0;
+    padding: 0;
+    max-width: none;
+ }
+
+ .bottom {
+    text-align: center;
+    border: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    background-color: #666666;
+    font-size: 10px;
+ }
+
+ .project-1 {
+     top: 329px;
+     left: 308px;
+ }
+ .project-2 {
+    top: 329px;
+    left: 638px;
+}
+.project-3 {
+    top: 539px;
+    left: 308px;
+}
+.project-4 {
+    top: 539px;
+    left: 638px;
+}
+.project-5 {
+    top: 749px;
+    left: 308px;
 }
