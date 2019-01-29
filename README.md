@@ -1,7 +1,6 @@
 # Basic-Portfolio
 
-Student SRM
-Contributors
+Student Contributors
 @ctracey92
 
 * Technology
